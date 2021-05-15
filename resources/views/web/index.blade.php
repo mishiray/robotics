@@ -20,7 +20,7 @@
                             <div class="row">
                                 <div class="col-md-8">
                                     <div class="photog">
-                                        <h1>Care early<br>Coronavirus</h1>
+                                        <h1>Robots<br>Wants to Learn</h1>
                                         <a class="read_more" href="javascript:void(0)" >Read More</a>
                                         <a class="read_more" href="about.html" >About Us</a>
                                     </div>
@@ -36,7 +36,7 @@
                             <div class="row">
                                 <div class="col-md-8">
                                     <div class="photog">
-                                        <h1>Care early<br>Coronavirus</h1>
+                                        <h1>Robots<br>Wants to Learn</h1>
                                         <a class="read_more" href="javascript:void(0)" >Read More</a>
                                         <a class="read_more" href="about.html" >About Us</a>
                                     </div>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-md-5">
                     <div class="about_img text_align_center">
-                        <figure><img src="{{$web_source}}/images/about.png" alt="#"/></figure>
+                        <figure><img src="{{$web_source}}/images/about2.png" alt="#"/></figure>
                     </div>
                 </div>
                 
@@ -104,7 +104,7 @@
                 <div class="row d_flex grid">
                 <div class="col-md-7">
                     <div class="coronata_img text_align_center">
-                        <figure><img src="{{$web_source}}/images/corona.png" alt="#"/></figure>
+                        <figure><img src="{{$web_source}}/images/robotlab.png" alt="#"/></figure>
                     </div>
                 </div>
                 <div class="col-md-5 oder1">
@@ -113,32 +113,96 @@
                         <p>
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad voluptatum numquam officia, deserunt excepturi at qui eius est dicta quo dignissimos aliquid cupiditate aliquam aperiam magni soluta eum corrupti quae!
                         </p>
-                        <a class="read_more" href="coronata.html">About More</a>
+                        <a class="read_more" href="#">About More</a>
                     </div>
                 </div>
                 </div>
             </div>
         </div>
-        <!-- end coronata -->
-
+        <!-- end about us -->
+        
+        <!-- tools we use -->
+      <div class="protect">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="titlepage text_align_center">
+                    <h2>Tools we Use</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut cum illo sapiente quia! Numquam, dignissimos neque nam fuga, aspernatur qui sunt corrupti ullam veniam accusamus fugiat ut explicabo commodi facere.</p>
+                 </div>
+              </div>
+           </div>
+        </div>
+          <div class="">
+                <div class="container">
+                    <div class="row">
+                            <!--  Demos -->
+                            <div class="row d_flex">
+                                <div class="item col-md-4">
+                                <div class="protect_box text_align_center">
+                                    <div class="desktop">
+                                        <i><img src="{{$web_source}}/images/robotics_icon_small.png" alt="#"/></i>
+                                    <h3>Tool 1</h3>
+                                    <span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos itaque deserunt tenetur reiciendis? Cumque quae libero laudantium delectus quibusdam. Itaque eveniet quis dolorum molestias commodi nemo corporis optio qui. Provident?</span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="item col-md-4">
+                                    <div class="protect_box text_align_center">
+                                    <div class="desktop">
+                                        <i><img src="{{$web_source}}/images/robotics_icon_small.png" alt="#"/></i>
+                                    <h3>Tool 2</h3>
+                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni minus minima inventore non nisi itaque quaerat repellendus? In ipsum expedita possimus laboriosam exercitationem doloremque ipsa porro perspiciatis vero animi.</span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="item col-md-4">
+                                    <div class="protect_box text_align_center">
+                                    <div class="desktop">
+                                        <i><img src="{{$web_source}}/images/robotics_icon_small.png" alt="#"/></i>
+                                    <h3>Tool 3</h3>
+                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, molestiae omnis. Eveniet laborum cupiditate expedita, provident recusandae tenetur perspiciatis, explicabo sint iusto nemo ipsa dolorem enim nobis molestias atque officiis.</span>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- end protect -->
         <!-- cases -->
         <div class="cases">
             <div class="container-fluid">
                 <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage text_align_center ">
-                        <h2>Our Services</h2>
+                        <h2>Our Recent Projects</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi aspernatur, earum sit quibusdam temporibus ullam id, adipisci quidem doloremque provident voluptatum error deleniti vero natus fugiat amet laborum, itaque dolor.</p>
                     </div>
                 </div>
                 </div>
                 <div class="row d_flex">
                 <div class=" col-md-4">
+                <!--
+                    template for coming from database 
+                    <div class=" col-md-4">
+                        <div class="latest text_align_center">
+                            <figure><img src="{{$web_source}}/images/cases1.png" alt="#"/></figure>
+                            <a class="read_more" href="#">Read More</a>
+                            <div class="nostrud">
+                                <h3>Project Name</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                    </div>
+                -->
                     <div class="latest text_align_center">
                         <figure><img src="{{$web_source}}/images/cases1.png" alt="#"/></figure>
                         <a class="read_more" href="cases.html">Read More</a>
                         <div class="nostrud">
-                            <h3>Cases 01</h3>
+                            <h3>Project 01</h3>
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
                         </div>
                     </div>
@@ -148,7 +212,7 @@
                         <figure><img src="{{$web_source}}/images/cases2.png" alt="#"/></figure>
                         <a class="read_more" href="cases.html">Read More</a>
                         <div class="nostrud">
-                            <h3>Cases 02</h3>
+                            <h3>Project 02</h3>
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
                         </div>
                     </div>
@@ -158,7 +222,7 @@
                         <figure><img src="{{$web_source}}/images/cases3.png" alt="#"/></figure>
                         <a class="read_more" href="cases.html">Read More</a>
                         <div class="nostrud">
-                            <h3>Cases 03</h3>
+                            <h3>Project 03</h3>
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
                         </div>
                     </div>
@@ -174,25 +238,24 @@
                 <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage text_align_center ">
-                        <h2>What doctors say..</h2>
+                        <h2>Our Stories</h2>
                     </div>
                 </div>
                 </div>
                 <div class="row d_flex">
                 <div class=" col-md-6">
                         <div id="ho_efcet" class="reader text_align_center">
-                            <i><img src="{{$web_source}}/images/doctor1.png" alt="#"/></i>
+                            <i><img src="{{$web_source}}/images/robotics_icon_small.png" alt="#"/></i>
                             <h3>Dr.Golap den</h3>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
-            <div class="loader"><img src="{{$web_source}}/images/loading.gif" alt="#"/></div>
-                            <span><img src="{{$web_source}}/images/do.png" alt="#"/></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, blanditiis ratione! Provident, labore non dicta veniam aperiam cum consequatur nisi natus nihil? Assumenda repudiandae nostrum recusandae aspernatur id. Fugit, optio.</p>
+                        <span><img src="{{$web_source}}/images/do.png" alt="#"/></span>
                         </div>
                     </div>
                             <div class=" col-md-6">
                         <div id="ho_efcet" class="reader text_align_center">
-                            <i><img src="{{$web_source}}/images/doctor2.png" alt="#"/></i>
+                            <i><img src="{{$web_source}}/images/robotics_icon_small.png" alt="#"/></i>
                             <h3>Dr.Golap den</h3>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dicta nesciunt incidunt debitis cumque consectetur, est magni commodi aliquid ab hic quibusdam modi unde obcaecati quaerat earum. Repudiandae, recusandae beatae.</p>
                             <span><img src="{{$web_source}}/images/do.png" alt="#"/></span>
                         </div>
                     </div>
