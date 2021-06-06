@@ -6,9 +6,9 @@
                       <div class="hedingh3 text_align_left">
                          <h3>Resources</h3>
                          <ul class="menu_footer">
-                            <li><a href="index.html">Home</a><li>
-                            <li><a href="javascript:void(0)">What we do</a><li>
-                            <li> <a href="javascript:void(0)">Contact Us</a><li>
+                            <li><a href="{{route('home')}}">Home</a><li>
+                            <li><a href="{{route('aboutUs')}}">What we do</a><li>
+                            <li> <a href="{{route('contactUs')}}">Contact Us</a><li>
                             <li> <a href="javascript:void(0)">Services</a><li>
                             <li><a href="javascript:void(0)">Blog</a><li>
                          </ul>

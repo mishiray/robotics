@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebController;
 
@@ -17,4 +18,13 @@ use App\Http\Controllers\WebController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/', [WebController::class, 'index']);
+
+Route::get('/', [WebController::class, 'index'])->name('home');
+
+Route::get('/aboutus', [WebController::class, 'aboutUs'])->name('aboutUs');
+
+Route::get('/contactus', [WebController::class, 'contactUs'])->name('contactUs');
+
+//Route::get('/our-blog', 'WebController@blogsView')->name('our_blog');
+
+Route::post('/contact-process', [ContactController:: class, 'store'])->name('contact.store');

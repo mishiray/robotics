@@ -232,7 +232,7 @@
         </div>
         <!-- end cases -->
 
-        <!-- doctors -->
+        <!-- stories -->
         <div class="doctors">
             <div class="container">
                 <div class="row">
@@ -251,7 +251,7 @@
                         <span><img src="{{$web_source}}/images/do.png" alt="#"/></span>
                         </div>
                     </div>
-                            <div class=" col-md-6">
+                    <div class=" col-md-6">
                         <div id="ho_efcet" class="reader text_align_center">
                             <i><img src="{{$web_source}}/images/robotics_icon_small.png" alt="#"/></i>
                             <h3>Dr.Golap den</h3>
@@ -262,7 +262,51 @@
                 </div>
             </div>
         </div>
-        <!-- end cases -->
+        <!-- end stories -->
+            
+        <!-- our partners -->
+        <div class="doctors">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="titlepage text_align_center ">
+                            <h2>Our Partners</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d_flex">
+                    <div class=" col-md-12 text_align_center">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                               <div class="protect_box text_align_center">
+                                 <div class="desktop">
+                                    <i><img src="{{$web_source}}/images/pro1.png" alt="#"/></i>
+                                    <h3> Wear Mask</h3>
+                                 </div> 
+                            </div>
+                        </div>
+                            <div class="item">
+                                 <div class="protect_box text_align_center">
+                                 <div class="desktop">
+                                    <i><img src="{{$web_source}}/images/pro2.png" alt="#"/></i>
+                                  <h3> Wash Your Hands</h3>
+                               </div>
+                            </div>
+                        </div>
+                            <div class="item">
+                                <div class="protect_box text_align_center">
+                                 <div class="desktop">
+                                    <i><img src="{{$web_source}}/images/pro3.png" alt="#"/></i>
+                                  <h3> Stay at Home</h3>
+                               </div>
+                            </div>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end our partners -->
 
         <!-- update -->
         <div class="update">
@@ -271,7 +315,7 @@
                     <div class="row">
                         <div class="col-md-12">
                         <div class="titlepage">
-                            <h2>Get Every Update.... </h2>
+                            
                         </div>
                         </div>
                     </div>
