@@ -7,5 +7,23 @@ use Illuminate\Database\Eloquent\Model;
 
 class Blog extends Model
 {
-    use HasFactory;
+    
+    protected  $guarded=[];
+
+    public function getStatus(){
+    if($this->status == 0){
+        return 'Unpublished';
+    }
+    else{
+        return 'Published';
+    }
+    }
+
+    public function user(){
+    return  $this->belongsTo(User::class);
+    }
+
+    public function comments (){
+        return $this->hasMany(BlogComments::class);
+    }
 }

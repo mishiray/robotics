@@ -13,7 +13,7 @@
       <title>@yield('title') :: Robotics Lab</title>
 
       <!-- fevicon -->
-      <link rel="icon" href="{{ $web_source }}/images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="{{ $web_source }}/assets/img/airol_2.png" />
 
       <!-- site metas -->
       <meta name="keywords" content="">

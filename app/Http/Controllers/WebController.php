@@ -7,8 +7,11 @@ use App\Models\Blog;
 use App\Models\BlogCategory;
 use App\Models\Subscriber;
 use App\Models\BlogComments;
+use App\Models\Event;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\URL;
 
 class WebController extends Controller
 {
@@ -22,13 +25,26 @@ class WebController extends Controller
     }
 
     public function aboutUs(){
+        
         return view('web.aboutus');
     }
 
     public function contactUs(){
         return view('web.contactus');
     }
-/*
+
+    public function events(){
+        $current_date = Carbon::now();
+        $upcoming = Event::where('status', 1)->whereDate('event_date','>=',$current_date)->get();
+        $past = Event::where('status', 1)->whereDate('event_date','<=',$current_date)->get();
+        return view('web.events', compact('upcoming','past'));
+    }
+
+    public function event_info($id){
+        $post = Event::findorfail($id);
+        return view('web.event_info' , compact('post'));
+    }
+
     public function blogsView(Request $request){
         $search_keywords = $request->keywords;
         $category_id = $request->category_id;
@@ -49,11 +65,11 @@ class WebController extends Controller
     
     public function blog_info($id){
         $post = Blog::findorfail($id);
-        $post['social_links'] = $this->post_share_links($post);
+        //$post['social_links'] = $this->post_share_links($post);
         $categories = BlogCategory::orderby('title')->limit(5)->inRandomOrder()->get();
         $recent_posts = Blog::orderby('created_at' , 'desc')->limit(5)->inRandomOrder()->get();
         $comments = BlogComments::where('blog_id',$post->id)->where('status',1)->orderby('id','desc')->get();
-        return view('web.blog_info' , compact('post' , 'categories' , 'recent_posts', 'comments'));
+        return view('web.blog_info' , compact('post','categories' , 'recent_posts', 'comments'));
     }
 
     public function blog_category_posts(Request $request , $id){
@@ -115,7 +131,7 @@ class WebController extends Controller
         $comment['body'] = $comment->body;
        return response()->json($comment);
     }
-*/
+
 
     /**
      * Show the form for creating a new resource.

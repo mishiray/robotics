@@ -29,7 +29,7 @@ class AppServiceProvider extends ServiceProvider
             $view->with([
                 'logo_img' => url('/').env('ASSET_URL').'/logo.png',
                 'web_source' => url('/').env('ASSET_URL').'/web',
-                'admin_source' => url('/').env('ASSET_URL').'/dashboard',
+                'admin_source' => url('/').env('ASSET_URL').'/admin',
             ]);
         });
     }
