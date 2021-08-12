@@ -13,7 +13,7 @@
       <title>@yield('title') :: Robotics Lab</title>
 
       <!-- fevicon -->
-      <link rel="icon" href="{{ $web_source }}/images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="{{ $web_source }}/assets/img/airol_2.png" />
 
       <!-- site metas -->
       <meta name="keywords" content="">
@@ -27,7 +27,7 @@
    <!-- body -->
    <body class="main-layout">
         <!-- loader  -->
-        <div class="loader_bg d-none">
+        <div class="loader_bg">
             <div class="loader"><img src="{{$web_source}}/images/loading.gif" alt="#"/></div>
         </div>
         <!-- end loader -->
@@ -43,6 +43,6 @@
         <!-- end footer -->
 
         <!-- Javascript files-->
-        @yield('web.includes.script')
+        @include('web.includes.script')
    </body>
 </html>

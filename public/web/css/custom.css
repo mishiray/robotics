@@ -1,0 +1,17 @@
+/*custom styles and classes*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect*/
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+.list-style > li{
+    list-style: decimal!important;
+}
