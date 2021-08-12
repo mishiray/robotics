@@ -86,6 +86,14 @@
                                     <li><a href="{{ route('event.posts.index') }}">All Posts</a></li>
                                 </ul>
                             </li>
+
+                            <li class="has_sub">
+                                <a href="#;" class="waves-effect"><i class="dripicons-photo-group"></i> <span> Gallery </span> <span class="menu-arrow float-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="{{ route('gallery.posts.create') }}">New Image</a></li>
+                                    <li><a href="{{ route('gallery.posts.index') }}">All Images</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>

@@ -47,8 +47,6 @@
                                     </tr>
                                     @endforeach
                                     {{ $categories->links() }}
-                                @else
-                                    <p>No categories found</p>
                                 @endif
                             </tbody>
                         </table>

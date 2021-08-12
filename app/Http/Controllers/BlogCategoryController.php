@@ -35,11 +35,12 @@ class BlogCategoryController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, $mode ='required')
     {
         $data = $request->validate([
             'title' => 'required|unique:blog_categories,title',
             'status' => 'required|string',
+            'image' =>  $mode.'|image',
             'meta_keywords' => 'nullable|string',
             'meta_description' => 'nullable|string',
         ]);

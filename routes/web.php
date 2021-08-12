@@ -5,6 +5,7 @@ use App\Http\Controllers\WebController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\BlogCategoryController;
 
@@ -23,6 +24,7 @@ Route::get('/', [WebController::class, 'index'])->name('home');
 Route::get('/aboutus', [WebController::class, 'aboutUs'])->name('aboutUs');
 Route::get('/contactus', [WebController::class, 'contactUs'])->name('contactUs');
 Route::get('/blogs', [WebController::class, 'blogsView'])->name('our_blog');
+Route::get('/gallery', [WebController::class, 'gallery'])->name('our_gallery');
 Route::get('/events', [WebController::class, 'events'])->name('events');
 Route::post('/our-blog/comment', [WebController::class, 'blogsComment'])->name('our_blog.comment');
 Route::match(['post', 'get'],'/subscribe', [WebController::class, 'subscribe'])->name('subscribe');
@@ -48,6 +50,11 @@ Route::get('post/{id}/{slug}', [WebController::class, 'blog_info'])->name('blog_
 
         Route::prefix('event')->as('event.')->group(function(){
             Route::resource('posts', EventController::class);
+        });
+
+        //Route::get('/contactus', [WebController::class, 'gallery'])->name('');
+        Route::prefix('gallery')->as('gallery.')->group(function(){
+            Route::resource('posts', GalleryController::class);
         });
     });
 

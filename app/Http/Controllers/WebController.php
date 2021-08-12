@@ -8,6 +8,7 @@ use App\Models\BlogCategory;
 use App\Models\Subscriber;
 use App\Models\BlogComments;
 use App\Models\Event;
+use App\Models\Gallery;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 use Carbon\Carbon;
@@ -31,6 +32,12 @@ class WebController extends Controller
 
     public function contactUs(){
         return view('web.contactus');
+    }
+
+    public function gallery(){
+        $gallery = Gallery::where('status', 1)->get();
+        $tags = Gallery::select('filter')->distinct()->get();
+        return view('web.gallery', compact('gallery','tags'));
     }
 
     public function events(){

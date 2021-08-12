@@ -43,7 +43,7 @@
                            </a>
                            <div class="dropdown-menu">
                                <a class="dropdown-item" href="{{route('our_blog')}}">News & blog</a>
-                               <a class="dropdown-item" href="{{route('home')}}">Gallery</a>
+                               <a class="dropdown-item" href="{{route('our_gallery')}}">Gallery</a>
                                <a class="dropdown-item" href="{{route('events')}}">Events</a>
                            </div>
                        </li>
