@@ -86,6 +86,10 @@
                 </div>
             </div>   
               @endforeach
+          @else 
+          <div class="col mt-5 text-center">
+            No Upcoming events!
+          </div>
           @endif
       </div>
   </div>
@@ -122,6 +126,10 @@
                 </div>
             </div>   
               @endforeach
+          @else
+          <div class="col mt-5 text-center">
+                  No past events!
+          </div>
           @endif           
           </div>
       </div>

@@ -113,7 +113,7 @@
                         <div class="topbar-left	d-none d-lg-block">
                             <div class="text-center">
 
-                                <a href="#" class="logo"><img src="{{ $web_source }}/assets/img/airol_3.png" height="50px" alt="logo"></a>
+                                <a href="#" class="logo"><img src="{{ $web_source }}/assets/airol/logo_white.png" height="50px" alt="logo"></a>
                             </div>
                         </div>
 
@@ -170,7 +170,7 @@
                 </div> <!-- content -->
 
                 <footer class="footer">
-                    © 2021 All Rights Reserved. <b>Robotics Lab</b> 
+                    © 2021 All Rights Reserved. <b>AIROL</b> 
                 </footer>
 
             </div>
