@@ -3,7 +3,7 @@
    <nav class="navbar navbar-expand-lg justify-content-between navbar-dark" data-overlay data-sticky="top">
        <div class="container">
            <div class="col-auto flex-fill px-0 d-flex justify-content-between">
-               <a class="navbar-brand mr-0 fade-page" href="index.html">
+               <a class="navbar-brand mr-0 fade-page" href="{{route('home')}}">
                    <img src="{{ $web_source }}/assets/airol/logo_white.png" alt="AIROL" style="height: 60px;" >
                </a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
