@@ -41,13 +41,13 @@
                                Resources
                                <img class="icon bg-white" style="transform: rotateZ(-90deg); margin: 0;" src="{{ $web_source }}/assets/img/icons/interface/arrow-caret.svg" alt="arrow-caret interface icon" data-inject-svg />
                            </a>
-                           <div class="dropdown-menu">
-                               <a class="dropdown-item" href="{{route('our_blog')}}">News & blog</a>
-                               <a class="dropdown-item" href="{{route('our_gallery')}}">Gallery</a>
-                               <a class="dropdown-item" href="{{route('events')}}">Events</a>
+                           <div class="dropdown-menu ">
+                               <a class="dropdown-item text-primary-3" href="{{route('our_blog')}}">News & blog</a>
+                               <a class="dropdown-item text-primary-3" href="{{route('our_gallery')}}">Gallery</a>
+                               <a class="dropdown-item text-primary-3" href="{{route('events')}}">Events</a>
                            </div>
                        </li>
-                       <li class="nav-item">
+                       <li class="nav-item d-none">
                            <a href="research" class="nav-link" aria-expanded="false"
                                aria-haspopup="false">Research</a>
                        </li>

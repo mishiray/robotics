@@ -15,16 +15,10 @@
                    <li class="nav-item dropdown">
                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
                        <div class="dropdown-menu">
-                           <a class="dropdown-item" href="{{route('home')}}">News & blog</a>
-                           <a class="dropdown-item" href="{{route('home')}}">Gallery</a>
-                           <a class="dropdown-item" href="{{route('home')}}">Events</a>
+                           <a class="dropdown-item text-primary-3" href="{{route('our_blog')}}">News & blog</a>
+                           <a class="dropdown-item text-primary-3" href="{{route('our_gallery')}}">Gallery</a>
+                           <a class="dropdown-item text-primary-3" href="{{route('events')}}">Events</a>
                        </div>
-                   </li>
-                   <li class="nav-item">
-                       <a href="{{route('home')}}" class="nav-link">Research</a>
-                   </li>
-                   <li class="nav-item">
-                       <a href="{{route('home')}}" class="nav-link">Training</a>
                    </li>
                    <li class="nav-item">
                        <a href="{{route('contactUs')}}" class="nav-link">Contact</a>
