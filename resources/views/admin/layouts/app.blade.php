@@ -47,7 +47,7 @@
 
                 <div class="left-side-logo d-block d-lg-none">
                     <div class="text-center">
-                        <a href="{{ url('/')}}" class="logo"><img src="{{ $web_source }}/assets/img/logo.png" height="20" alt="logo"></a>
+                        <a href="{{ url('/')}}" class="logo"><img src="{{ $web_source }}/assets/airol/logo_white.png" height="20" alt="logo"></a>
                     </div>
                 </div>
 
@@ -127,7 +127,7 @@
                                         <b style="color: black">{{Auth::user()->name}} </b>
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated profile-dropdown ">
-                                        <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle m-r-5 text-muted"></i> Profile</a>
+                                        <a class="dropdown-item d-none" href="#"><i class="mdi mdi-account-circle m-r-5 text-muted"></i> Profile</a>
                                         <a class="dropdown-item" href="{{ route('logout') }}"><i class="mdi mdi-logout m-r-5 text-muted"></i> Logout</a>
                                     </div>
                                 </li>

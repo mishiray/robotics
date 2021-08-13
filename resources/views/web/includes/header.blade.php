@@ -70,15 +70,6 @@
                    </ul>
                </div>
            </div>
-           <div class="collapse navbar-collapse justify-content-end col-auto flex-fill px-0">
-               <!--<a
-                       data-toggle="modal" data-target="#sign-in-modal"
-                       href="#!"
-                       class="btn btn-primary ml-lg-3">Apply</a>-->
-               <a
-                       href="register.html"
-                       class="btn btn-primary ml-lg-3">Apply</a>
-           </div>
        </div>
    </nav>
 </div>
