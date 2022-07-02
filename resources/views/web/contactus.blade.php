@@ -41,20 +41,21 @@
        <div class="col-sm-4 mb-3 mb-sm-0">
          <h3 class="h2">Visit</h3>
          <span class="lead">
-           Central Research Lab, University Of Lagos
+           AiRol,
+           Central Research Lab, <br> University Of Lagos
            <br />Akoka Yaba, <br />Lagos Nigeria
          </span>
        </div>
        <div class="col-sm-4 mb-3 mb-sm-0">
          <h3 class="h2">Email</h3>
-         <a href="mailto:{{env('MAIL_CONTACT')}}" class="lead"
-           > {{ env('MAIL_CONTACT') }}</a
+         <a href="mailto:airol@unilag.edu.ng" class="lead"
+           > airol@unilag.edu.ng </a
          >
        </div>
        <div class="col-sm-4 mb-3 mb-sm-0">
          <h3 class="h2">Call</h3>
          <span class="lead">
-           +254 794 342 159
+          +(234) 803 342 4289
          </span>
          <div class="text-small text-muted">Mon - Fri, 9am - 5pm</div>
        </div>
@@ -65,7 +66,7 @@
  <section>
    <div class="container">
      <div class="row justify-content-center">
-       <div class="col-md-9 col-lg-8 col-xl-6" id="contact_form1">
+       <div class="col-md-11 col-lg-10 col-xl-8" id="contact_form1">
          <div class="text-center mb-4">
            <h2 class="h1">Leave a message</h2>
          </div>
