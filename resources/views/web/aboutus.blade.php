@@ -162,19 +162,27 @@
                     </div>
                 </div>
                 <div class="row mb-3">
-                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-                      <img src="{{ $web_source }}/images/team/chika.jpeg" alt="Chika Banjo"
-                          class="avatar avatar-xlg mr-3" />
-                      <div>
-                          <h5 class="mb-0">Dr Chika Yinka-Banjo</h5>
-                          <span>Team Lead</span><br />
-                          <a href="https://www.linkedin.com/in/chika-yinka-banjo/" target="_blank">
-                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
-                                  alt="decoration" data-inject-svg />
-                              @chika-yinka-banjo
-                          </a>
-                      </div>
-                  </div>
+                    <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                        <img src="{{ $web_source }}/images/team/vc.jpg" alt="Ogundipe"
+                            class="avatar avatar-xlg mr-3" />
+                        <div>
+                            <h5 class="mb-0">O. Ogundipe</h5>
+                            <span>Vice Chancellor (UNILAG)</span><br />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                        <img src="{{ $web_source }}/images/team/chika.jpeg" alt="Chika Banjo"
+                            class="avatar avatar-xlg mr-3" />
+                        <div>
+                            <h5 class="mb-0">Dr Chika Yinka-Banjo</h5>
+                            <span>Team Lead</span><br />
+                            <a href="https://www.linkedin.com/in/chika-yinka-banjo/" target="_blank">
+                                <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                    alt="decoration" data-inject-svg />
+                                @chika-yinka-banjo
+                            </a>
+                        </div>
+                    </div>
                   <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
                       <img src="{{ $web_source }}/images/team/ajayi.jpeg" alt="O. Ajayi"
                           class="avatar avatar-xlg mr-3" />
@@ -285,6 +293,19 @@
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
                               @A. Aishat
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/chiedu.jpeg" alt="Chiedu Chiedu"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Chieto Chiedu</h5>
+                          <span>Software Engineer, Goldman Sachs</span><br />
+                          <a href="https://ng.linkedin.com/in/chieto-chiedu-b73747163" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @C. Chiedu
                           </a>
                       </div>
                   </div>
