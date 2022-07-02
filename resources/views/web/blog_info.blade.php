@@ -70,7 +70,7 @@
           />
         </div>
       </div> -->
-      <div class="divider flip-x">
+      <div class="divider ">
         <img
           src="../assets/img/dividers/divider-1.svg"
           alt="graphical divider"
@@ -81,8 +81,8 @@
 
     <section class="p-0" data-reading-position>
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-7 col-lg-8 col-md-10">
+        <div class="row">
+          <div class="col-xl-12  col-lg-12 col-md-10">
             <article class="article">
                 {!! $post->description !!}
             </article>

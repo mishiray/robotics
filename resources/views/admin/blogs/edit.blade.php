@@ -97,9 +97,9 @@
                                         <button type="submit" class="btn btn-primary waves-effect waves-light">
                                             Submit
                                         </button>
-                                        <button type="reset" class="btn btn-secondary waves-effect m-l-5">
+                                        <a href="{{ route('blog.posts.index') }}" class="Cancel">
                                             Cancel
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </form>

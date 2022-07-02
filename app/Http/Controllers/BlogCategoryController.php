@@ -40,7 +40,6 @@ class BlogCategoryController extends Controller
         $data = $request->validate([
             'title' => 'required|unique:blog_categories,title',
             'status' => 'required|string',
-            'image' =>  $mode.'|image',
             'meta_keywords' => 'nullable|string',
             'meta_description' => 'nullable|string',
         ]);

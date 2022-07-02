@@ -31,7 +31,7 @@
         </div>
       </div>
       </div> 
-      <div class="divider flip-x">
+      <div class="divider ">
         <img
           src="{{ $web_source }}/assets/img/dividers/divider-1.svg"
           alt="graphical divider"
