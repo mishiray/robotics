@@ -2,22 +2,21 @@
 @section('title', 'Home')
 @section('content')
 <div class="main">
-        
-<section class="text-light jarallax p-0 o-hidden" data-jarallax-video="https://vimeo.com/470554083" data-speed="1">
+    {{-- https://vimeo.com/470554083 --}}
+<section class="text-light jarallax p-0 o-hidden" data-jarallax-video="mp4:{{ $web_source }}/assets/videos/banner.mp4" data-speed="1">
     <div class="bg-primary-3 bg-image blend-mode-multiply" style="opacity: 0.4;"></div>
     <div class="container layer-2">
-        <div class="row min-vh-90 py-6 align-items-center" data-aos="fade-up">
+        <div class="row min-vh-60 py-4 align-items-center" data-aos="fade-up">
             <div class="col-md-10 col-xl-10 mb-3 mb-md-0 align-self-end">
                 <div class="row justify-content-center">
                     <div class="col-xl-10 col-lg-11">
-                        <h3 class="display-4">
+                        <h1 class="display-4">
                             We are AIROL
-                        </h3>
+                        </h1>
                         <blockquote class="blockquote lead p-0 mt-3">
                             <p class="mb-0">
                                 &ldquo;We are driven by our love for AI and ML. We wish to build up the new generation in such ways to improve their lives and the society&rdquo;
                             </p>
-                            <footer class="blockquote-footer p-0 mt-2 text-white-50">John Kamara</footer>
                         </blockquote>
                         <!--                        <a href="/about.html" class="lead hover-arrow">Learn More</a>-->
                     </div>
@@ -44,7 +43,7 @@
                 <ul class="d-flex flex-wrap list-unstyled">
                     <li class="mr-4 mb-5" data-aos="fade-up" data-aos-delay="100">
                         <a href="#!">
-                            <img class="icon icon-logo icon-md" src="{{ $web_source }}/assets/logos/huawei-white.png" alt="icon" />
+                            <img class="icon icon-logo icon-md" src="https://coderina.org/wp-content/uploads/2021/03/Coderina-Logo-JPEG.jpg-2-1-1.jpeg" alt="icon" />
                         </a>
                     </li>
                     <li class="mr-4 mb-5" data-aos="fade-up" data-aos-delay="200">

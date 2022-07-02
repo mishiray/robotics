@@ -228,28 +228,46 @@
                         </div>
                     </div> --}}
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <span>Interested in joining our team? Forward an email to
-                            <a class="text-primary-2"
-                                href="mailto:airol.unilag.edu.ng">airol.unilag.edu.ng</a>
-                        </span>
-                    </div>
-                </div>
             </div>
             <div class="container pb-6">
                 <div class="row mb-4" data-aos="fade-up">
                     <div class="col">
-                        <h3>Students Team</h3>
+                        <h3>Pioneer Volunteers</h3>
                     </div>
                 </div>
                 <div class="row mb-3">
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/ugot.jpeg" alt="Ugot"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Ogban Asuquo Ugot</h5>
+                          <span>Senior Software Engineer, Frain Technologies.</span><br />
+                          <a href="https://www.linkedin.com/in/ogban-asuquo-ugot-702aa314b/" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @O. Ugot
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/tobi.jpeg" alt="Tobi"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Tobi Ekayode</h5>
+                          <span>Software Engineer, Microsoft</span><br />
+                          <a href="https://www.linkedin.com/in/ekayode" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @E. Tobi
+                          </a>
+                      </div>
+                  </div>
                   <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
                       <img src="{{ $web_source }}/images/team/evans.jpeg" alt="Ehiorobo Evans"
                           class="avatar avatar-xlg mr-3" />
                       <div>
                           <h5 class="mb-0">Ehiorobo Evans</h5>
-                          <span>Senior Software Engineer at Para</span><br />
+                          <span>Senior Software Engineer, Para</span><br />
                           <a href="https://www.linkedin.com/in/evans-ehiorobo-1081677a" target="_blank">
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
@@ -270,6 +288,14 @@
                           </a>
                       </div>
                   </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <span>Interested in joining our team? Forward an email to
+                            <a class="text-primary-2"
+                                href="mailto:airol.unilag.edu.ng">airol.unilag.edu.ng</a>
+                        </span>
+                    </div>
                 </div>
             </div>
         </section>
