@@ -25,7 +25,6 @@
                             <tr>
                                 <th>Id</th>
                                 <th>Title</th>
-                                <th>Description</th>
                                 <th>Image</th>
                                 <th>Status</th>
                                 <th>Views</th>
@@ -40,7 +39,6 @@
                                 <tr>
                                     <td>{{$post->id}}</td>
                                     <td>{{$post->title}}</td>
-                                    <td>{!! $post->description !!}</td>
                                     <td>
                                         @if (!empty($post->image))
                                         <a href="{{ asset('post_images/'.$post->image) }}" target="_blank" class="btn btn-primary btn-xs">View</a>

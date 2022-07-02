@@ -26,7 +26,7 @@
 
         </div>
     </div>
-    <div class="divider flip-x">
+    <div class="divider ">
         <img class="bg-primary-3" src="{{ $web_source }}/assets/img/dividers/divider-3.svg" alt="divider graphic" data-inject-svg />
     </div>
 </section>

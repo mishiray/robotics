@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    <div class="divider flip-x">
+    <div class="divider ">
         <img
                 class=""
                 src="../assets/img/dividers/divider-5.svg"
