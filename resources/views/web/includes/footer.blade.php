@@ -33,16 +33,17 @@
                        <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/map/marker-1.svg" alt="marker-1 icon"
                            data-inject-svg />
                        <div class="ml-3">
-                           <span>No 13, Address road<br />
-                               Address,<br />
-                               1st floor</span>
+                           <span>AI & Robotics Labs,<br />
+                            Central Research Laboratory,<br />
+                               University of Lagos,<br />
+                               Akoka, Yaba, Lagos</span>
                        </div>
                    </li>
                    <li class="mb-3 d-flex">
                        <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/communication/call-1.svg" alt="call-1 icon"
                            data-inject-svg />
                        <div class="ml-3">
-                           <span>Phone here</span>
+                           <span>+(234) 803 342 4289</span>
                            <span class="d-block text-muted text-small">Mon - Fri 9am - 5pm</span>
                        </div>
                    </li>
@@ -50,7 +51,7 @@
                        <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/communication/mail.svg" alt="mail icon"
                            data-inject-svg />
                        <div class="ml-3">
-                           <a href="mailto:contact@aiceafrica.com">contact@airol.com</a>
+                           <a href="mailto:airol@unilag.edu.ng">airol@unilag.edu.ng</a>
                        </div>
                    </li>
                </ul>
