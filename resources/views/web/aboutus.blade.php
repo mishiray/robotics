@@ -162,19 +162,58 @@
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-                        <img src="{{ $web_source }}/images/team/chika.jpeg" alt="Chika Banjo"
-                            class="avatar avatar-xlg mr-3" />
-                        <div>
-                            <h5 class="mb-0">Dr Chika Yinka-Banjo</h5>
-                            <span>Team Lead</span><br />
-                            <a href="https://www.linkedin.com/in/chika-yinka-banjo/" target="_blank">
-                                <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
-                                    alt="decoration" data-inject-svg />
-                                @chika-yinka-banjo
-                            </a>
-                        </div>
-                    </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/chika.jpeg" alt="Chika Banjo"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Dr Chika Yinka-Banjo</h5>
+                          <span>Team Lead</span><br />
+                          <a href="https://www.linkedin.com/in/chika-yinka-banjo/" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @chika-yinka-banjo
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/ajayi.jpeg" alt="O. Ajayi"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Dr Olasupo Ajayi</h5>
+                          <span>Member</span><br />
+                          <a href="https://www.linkedin.com/in/olasupo-ajayi-23096338/" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @Olasup Ajayi
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/akinyemi.jpeg" alt="Ipinnimo"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Dr Mary Akinyemi</h5>
+                          <span>Member</span><br />
+                          <a href="https://www.linkedin.com/in/mary-akinyemi-58a61611" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @M. Akinyemi
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/ipinnimo.jpeg" alt="Ipinnimo"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Dr O. Ipinnimo</h5>
+                          <span>Member</span><br />
+                          <a href="https://ng.linkedin.com/in/oluwafemi-ipinnimo-a94092165" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @O.Ipinnimo
+                          </a>
+                      </div>
+                  </div>
                     {{-- <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
                         <img src="{{ $web_source }}/assets/img/person.png" alt="Claire Matuka"
                             class="avatar avatar-xlg mr-3" />
@@ -193,9 +232,44 @@
                     <div class="col">
                         <span>Interested in joining our team? Forward an email to
                             <a class="text-primary-2"
-                                href="mailto:{{ env('MAIL_CONTACT') }}">{{ env('MAIL_CONTACT') }}</a>
+                                href="mailto:airol.unilag.edu.ng">airol.unilag.edu.ng</a>
                         </span>
                     </div>
+                </div>
+            </div>
+            <div class="container pb-6">
+                <div class="row mb-4" data-aos="fade-up">
+                    <div class="col">
+                        <h3>Students Team</h3>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/evans.jpeg" alt="Ehiorobo Evans"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Ehiorobo Evans</h5>
+                          <span>Senior Software Engineer at Para</span><br />
+                          <a href="https://www.linkedin.com/in/evans-ehiorobo-1081677a" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @E. Ehiorobo
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/aishat.jpg" alt="Ajose Aishat"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Ajose Aishat</h5>
+                          <span>Software Engineer</span><br />
+                          <a href="https://www.linkedin.com/in/ajose-aishat" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @A. Aishat
+                          </a>
+                      </div>
+                  </div>
                 </div>
             </div>
         </section>
