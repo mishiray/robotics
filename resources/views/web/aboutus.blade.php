@@ -309,6 +309,58 @@
                           </a>
                       </div>
                   </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/joyce.jpeg" alt="Joyce Adelusi"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Joyce Adelusi</h5>
+                          <span>Software Engineer, Trove Finance</span><br />
+                          <a href="https://www.linkedin.com/in/joyceadelusi" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @A. Joyce
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/chibuzor.jpeg" alt="Chibuzor Nwalor"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Chibuzor Nwalor</h5>
+                          <span>Software Engineer Consultant, Boston Consulting Group</span><br />
+                          <a href="https://www.linkedin.com/in/chibuzor-nwalor-8383668b/" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @N. CHibuzor
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/chiamaka.jpg" alt="Stacy Onuora"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Stacy Onuora</h5>
+                          <span>Software Engineer, Trove Finance</span><br />
+                          <a href="https://www.linkedin.com/in/stacey-onuora-a81b29168/" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @O. Stacy
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/joel.jpeg" alt="Joel Adebayo"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Joel Adebayo</h5>
+                          <span>SRobotics and STEM Coach</span><br />
+                          <a href="https://www.linkedin.com/in/jayteeadebayo" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @A. Joel
+                          </a>
+                      </div>
+                  </div>
                 </div>
                 <div class="row">
                     <div class="col">
