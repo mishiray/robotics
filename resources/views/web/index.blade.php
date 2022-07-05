@@ -51,11 +51,6 @@
                             <img class="icon icon-logo icon-md" src="{{ $web_source }}/assets/logos/unilag.png" alt="icon" />
                         </a>
                     </li>
-                    <li class="mr-4 mb-5" data-aos="fade-up" data-aos-delay="300">
-                        <a href="#!">
-                            <img class="icon icon-logo icon-md" src="{{ $web_source }}/assets/logos/microsoft.png" alt="icon" />
-                        </a>
-                    </li>
                 </ul>
             </div>
         </div>
