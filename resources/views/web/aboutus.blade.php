@@ -336,15 +336,15 @@
                       </div>
                   </div>
                   <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-                      <img src="{{ $web_source }}/images/team/chiamaka.jpg" alt="Stacy Onuora"
+                      <img src="{{ $web_source }}/images/team/chiamaka.jpg" alt="Stacey Onuora"
                           class="avatar avatar-xlg mr-3" />
                       <div>
-                          <h5 class="mb-0">Stacy Onuora</h5>
+                          <h5 class="mb-0">Stacey Onuora</h5>
                           <span>Software Engineer, Trove Finance</span><br />
                           <a href="https://www.linkedin.com/in/stacey-onuora-a81b29168/" target="_blank">
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
-                              @O. Stacy
+                              @O. Stacey
                           </a>
                       </div>
                   </div>
