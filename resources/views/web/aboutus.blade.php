@@ -258,6 +258,19 @@
                       </div>
                   </div>
                   <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/chiamaka.jpg" alt="Stacey Onuora"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Stacey Onuora</h5>
+                          <span>Software Engineer, Trove Finance</span><br />
+                          <a href="https://www.linkedin.com/in/stacey-onuora-a81b29168/" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @O. Stacey
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
                       <img src="{{ $web_source }}/images/team/tobi.jpeg" alt="Tobi"
                           class="avatar avatar-xlg mr-3" />
                       <div>
@@ -267,19 +280,6 @@
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
                               @E. Tobi
-                          </a>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-                      <img src="{{ $web_source }}/images/team/evans.jpeg" alt="Ehiorobo Evans"
-                          class="avatar avatar-xlg mr-3" />
-                      <div>
-                          <h5 class="mb-0">Ehiorobo Evans</h5>
-                          <span>Senior Software Engineer, Para</span><br />
-                          <a href="https://www.linkedin.com/in/evans-ehiorobo-1081677a" target="_blank">
-                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
-                                  alt="decoration" data-inject-svg />
-                              @E. Ehiorobo
                           </a>
                       </div>
                   </div>
@@ -297,15 +297,15 @@
                       </div>
                   </div>
                   <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-                      <img src="{{ $web_source }}/images/team/chiedu.jpeg" alt="Chiedu Chiedu"
+                      <img src="{{ $web_source }}/images/team/evans.jpeg" alt="Ehiorobo Evans"
                           class="avatar avatar-xlg mr-3" />
                       <div>
-                          <h5 class="mb-0">Chieto Chiedu</h5>
-                          <span>Software Engineer, Goldman Sachs</span><br />
-                          <a href="https://ng.linkedin.com/in/chieto-chiedu-b73747163" target="_blank">
+                          <h5 class="mb-0">Ehiorobo Evans</h5>
+                          <span>Senior Software Engineer, Para</span><br />
+                          <a href="https://www.linkedin.com/in/evans-ehiorobo-1081677a" target="_blank">
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
-                              @C. Chiedu
+                              @E. Ehiorobo
                           </a>
                       </div>
                   </div>
@@ -336,15 +336,15 @@
                       </div>
                   </div>
                   <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-                      <img src="{{ $web_source }}/images/team/chiamaka.jpg" alt="Stacey Onuora"
+                      <img src="{{ $web_source }}/images/team/chiedu.jpeg" alt="Chiedu Chiedu"
                           class="avatar avatar-xlg mr-3" />
                       <div>
-                          <h5 class="mb-0">Stacey Onuora</h5>
-                          <span>Software Engineer, Trove Finance</span><br />
-                          <a href="https://www.linkedin.com/in/stacey-onuora-a81b29168/" target="_blank">
+                          <h5 class="mb-0">Chieto Chiedu</h5>
+                          <span>Software Engineer, Goldman Sachs</span><br />
+                          <a href="https://ng.linkedin.com/in/chieto-chiedu-b73747163" target="_blank">
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
-                              @O. Stacey
+                              @C. Chiedu
                           </a>
                       </div>
                   </div>
