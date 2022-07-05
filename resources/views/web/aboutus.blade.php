@@ -175,7 +175,7 @@
                             class="avatar avatar-xlg mr-3" />
                         <div>
                             <h5 class="mb-0">Dr Chika Yinka-Banjo</h5>
-                            <span>Team Lead</span><br />
+                            <span>Coordinator</span><br />
                             <a href="https://www.linkedin.com/in/chika-yinka-banjo/" target="_blank">
                                 <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                     alt="decoration" data-inject-svg />
@@ -331,7 +331,7 @@
                           <a href="https://www.linkedin.com/in/chibuzor-nwalor-8383668b/" target="_blank">
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
-                              @N. CHibuzor
+                              @N. Chibuzor
                           </a>
                       </div>
                   </div>
