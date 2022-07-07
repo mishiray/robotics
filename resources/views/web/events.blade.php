@@ -26,8 +26,7 @@
       <div class="col-xl-7 col-lg-8 col-md-9">
         <h1 class="display-4">Events</h1>
         <p class="h3">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium.
+          Check out our past and upcoming events
         </p>
       </div>
     </div>

@@ -24,8 +24,7 @@ data-speed="0.2"
     <div class="col-xl-7 col-lg-8 col-md-9">
       <h1 class="display-4">News</h1>
       <p class="h3">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium.
+        Hear the latest updates on AiRol and Robotics
       </p>
     </div>
   </div>
