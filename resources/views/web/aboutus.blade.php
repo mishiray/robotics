@@ -63,7 +63,7 @@
                           We started with about five students and a lecturer. We later expanded into 10 students
                           and a few more lecturers that same year. The Vice-Chancellor Prof. Ogundipe graciously
                           gave us a workspace at the central research lab building (CRL) UNILAG. The following were
-                          achieved 2018.
+                          achieved in 2018.
                       </p>
                   </div>
               </div>
@@ -166,8 +166,14 @@
                         <img src="{{ $web_source }}/images/team/vc.jpg" alt="Ogundipe"
                             class="avatar avatar-xlg mr-3" />
                         <div>
-                            <h5 class="mb-0">O. Ogundipe</h5>
+                            <h5 class="mb-0">Prof. O.T. Ogundipe</h5>
                             <span>Vice Chancellor (UNILAG)</span><br />
+                            <a href="https://www.linkedin.com/in/oluwatoyin-ogundipe-1b388566" target="_blank">
+                                <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                    alt="decoration" data-inject-svg />
+                                @O. Ogundipe
+                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
@@ -179,7 +185,7 @@
                             <a href="https://www.linkedin.com/in/chika-yinka-banjo/" target="_blank">
                                 <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                     alt="decoration" data-inject-svg />
-                                @chika-yinka-banjo
+                                @C. Yinka-Banjo
                             </a>
                         </div>
                     </div>
@@ -192,7 +198,7 @@
                           <a href="https://www.linkedin.com/in/olasupo-ajayi-23096338/" target="_blank">
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
-                              @Olasup Ajayi
+                              @A. Olasupo
                           </a>
                       </div>
                   </div>
@@ -218,7 +224,7 @@
                           <a href="https://ng.linkedin.com/in/oluwafemi-ipinnimo-a94092165" target="_blank">
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
-                              @O.Ipinnimo
+                              @O. Ipinnimo
                           </a>
                       </div>
                   </div>
@@ -262,7 +268,7 @@
                           class="avatar avatar-xlg mr-3" />
                       <div>
                           <h5 class="mb-0">Stacey Onuora</h5>
-                          <span>Software Engineer, Trove Finance</span><br />
+                          <span>Team Lead, Software Engineer, Patricia Technologies Limited</span><br />
                           <a href="https://www.linkedin.com/in/stacey-onuora-a81b29168/" target="_blank">
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
@@ -345,6 +351,19 @@
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
                               @C. Chiedu
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/nwachukwu.jpg" alt="Nwachukwu Joel"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Nwachukwu Ugo</h5>
+                          <span>News and Feeds Content services, Microsoft</span><br />
+                          <a href="https://www.linkedin.com/in/ugo-nwachuku/" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @U. Nwachukwu
                           </a>
                       </div>
                   </div>
