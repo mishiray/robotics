@@ -15,7 +15,7 @@
                         </h1>
                         <blockquote class="blockquote lead p-0 mt-3">
                             <p class="mb-0">
-                                &ldquo;We are driven by our love for AI, ML and Robotics. We wish to build up the new generation in such ways to improve their lives and the society&rdquo;
+                                We are driven by our love for AI, ML and Robotics. We wish to build up the new generation in such ways to improve their lives and the society
                             </p>
                         </blockquote>
                         <!--                        <a href="/about.html" class="lead hover-arrow">Learn More</a>-->
@@ -194,7 +194,7 @@
             <div class="col-xl-8 col-lg-9">
                 <h2 class="display-4 mx-xl-6">Ways to be involved</h2>
                 <p class="lead">
-                    Join Us On AiRol, together we will reshape the world
+                    Join Us At AiRol, together we will reshape the world
                 </p>
             </div>
         </div>
@@ -205,8 +205,7 @@
                     <div class="process-circle bg-primary mb-3 d-inline-flex">1</div>
                     <h4>Sponsorship</h4>
                     <p class="lead">
-                        We need sponsorship to develop and run the lab.
-                        Your organization will be recognized in all the information disseminated about the Lab in all news media
+                        We need sponsorship to develop and run the lab. Your organization will be recognized in all AiRoL's media communique 
                     </p>
                 </div>
             </div>
@@ -241,8 +240,7 @@
                     </div>
                     <h4>Unilag Corporate Social Responsibility (CSR)</h4>
                     <p class="lead">
-                        University of Lagos is particular about its environment, thereby we trin the less privelege within pour ommunity in this space yearly.
-                        Sponsors are highly needed and  appreciated.
+                        University of Lagos is particular about its environment, thus, through AiROL, the university TRAINS the less PRIVILEGED within OUR Community on Robotics & Programming annually.
                     </p>
                 </div>
             </div>
