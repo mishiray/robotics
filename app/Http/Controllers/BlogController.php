@@ -48,7 +48,7 @@ class BlogController extends Controller
         $data = $this->validateData($request);
         $data['user_id'] = $user->id;
         Blog::create($data);
-        //toastr()->success('Post added successfully!');
+        toastr()->success('Post added successfully!');
         return redirect()->back();
     }
 
@@ -124,7 +124,7 @@ class BlogController extends Controller
             }
         }
         $blog->update($data);
-        //toastr()->success('Post updated successfully!');
+        toastr()->success('Post updated successfully!');
         return redirect()->back();
     }
 
@@ -144,7 +144,7 @@ class BlogController extends Controller
            // toastr()->error('Couldn`t delete old image!');
         }
         $blog->delete();
-        // toastr()->success('Post deleted successfully!');
+        toastr()->success('Post deleted successfully!');
         return redirect()->back();
     }
 }

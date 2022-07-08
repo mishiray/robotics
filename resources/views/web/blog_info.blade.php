@@ -82,7 +82,7 @@
     <section class="p-0" data-reading-position>
       <div class="container">
         <div class="row">
-          <div class="col-xl-12  col-lg-12 col-md-10">
+          <div class="col-xl-12 mt-4 col-lg-12 col-md-10">
             <article class="article">
                 {!! $post->description !!}
             </article>
