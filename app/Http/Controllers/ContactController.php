@@ -11,13 +11,19 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
+        //dd($request);
         $this->validate($request,[
             'name' => 'required',
             'email' => 'required|email',
-            'subject' => 'required',
+            'company' => 'nullable|string',
+            'mobile' => 'required',
             'message' => 'required',
         ]);
-        Mail::send( new ContactMessage($request));
+        try{
+            Mail::send( new ContactMessage($request));
+        }catch(Exception $ex){
+            dd($ex);
+        }
         return redirect()->back();
     }
 

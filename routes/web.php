@@ -6,6 +6,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\GalleryController;
+use Illuminate\Http\Request;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\BlogCategoryController;
 
@@ -32,6 +33,19 @@ Route::get('unsubscribe/{email}',[WebController::class, 'unsubscribe'])->name('u
 Route::post('make-comment', [WebController::class, 'make_comment'])->name('make_comment');
 Route::get('/share/{id}',[WebController::class, 'share_post'])->name('share_post');
 Route::post('/contact-process',[ContactController::class, 'store'])->name('contact.store');
+// Route::post('/contact-process', function (Request $request) {
+//     //dd($request);
+//     $this->validate($request,[
+//         'name' => 'required',
+//         'email' => 'required|email',
+//         'company' => 'nullable|string',
+//         'mobile' => 'required',
+//         'subject' => 'required',
+//         'message' => 'required',
+//     ]);
+//     Mail::send( new ContactMessage($request));
+//     return redirect()->back();
+// })->name('contact.store');
 Route::get('event/{id}/{slug}', [WebController::class, 'event_info'])->name('event_info');
 Route::get('post/{id}/{slug}', [WebController::class, 'blog_info'])->name('blog_info');
 

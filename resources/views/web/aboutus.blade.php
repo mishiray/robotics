@@ -368,6 +368,19 @@
                       </div>
                   </div>
                   <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/bukunmi.jpeg" alt="Bukunmi Osinuga"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Bukunmi Osinuga</h5>
+                          <span>Freelance Software Developer</span><br />
+                          <a href="http://www.linkedin.com/in/osinuga-oluwabukunmi-721b84184" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @B. Osinuga
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
                       <img src="{{ $web_source }}/images/team/joel.jpeg" alt="Joel Adebayo"
                           class="avatar avatar-xlg mr-3" />
                       <div>
@@ -377,6 +390,19 @@
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
                               @A. Joel
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                      <img src="{{ $web_source }}/images/team/blessing.jpg" alt="Omokohba Blessing"
+                          class="avatar avatar-xlg mr-3" />
+                      <div>
+                          <h5 class="mb-0">Omokohba Blessing</h5>
+                          <span>AIROL Manager</span><br />
+                          <a href="https://www.linkedin.com/in/omokhoba-blessing-yama-806724244/" target="_blank">
+                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                  alt="decoration" data-inject-svg />
+                              @B. Omokohba
                           </a>
                       </div>
                   </div>

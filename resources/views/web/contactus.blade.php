@@ -72,10 +72,11 @@
          </div>
          <form
                  method="post"
-           action="https://www.aiceafrica.com/contact"
+           action="{{route('contact.store')}}"
            data-form-email
            novalidate
          >
+         @csrf @method('POST')
            <div class="row">
              <div class="col-md-6">
                <div class="form-group">
