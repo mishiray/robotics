@@ -30,8 +30,8 @@ class ContactMessage extends Mailable
     public function build()
     {
         return $this->markdown('emails.contact-message')
-        ->subject($this->email->subject)
+        ->subject("Contact Request")
         ->from($this->email->email, $this->email->name)
-        ->to('hello@example.com');
+        ->to(env('MAIL_USERNAME'));
     }
 }

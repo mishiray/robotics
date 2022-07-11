@@ -126,7 +126,7 @@
                    <script>
                        document.write(new Date().getFullYear());
                    </script>
-                   &copy; AIROL &nbsp;Powered By <a target="_BLANK" href="https://www.linkedin.com/in/mishael-abiola-nonymousray/">@mishi</a>. 
+                   &copy; AIROL &nbsp; 
                </small>
            </div>
        </div>
