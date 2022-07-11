@@ -307,7 +307,7 @@
                           class="avatar avatar-xlg mr-3" />
                       <div>
                           <h5 class="mb-0">Ehiorobo Evans</h5>
-                          <span>Senior Software Engineer, Para</span><br />
+                          <span>Senior Software Engineer, Toptal</span><br />
                           <a href="https://www.linkedin.com/in/evans-ehiorobo-1081677a" target="_blank">
                               <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
                                   alt="decoration" data-inject-svg />
