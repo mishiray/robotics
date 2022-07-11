@@ -166,7 +166,7 @@
                         <img src="{{ $web_source }}/images/team/vc.jpg" alt="Ogundipe"
                             class="avatar avatar-xlg mr-3" />
                         <div>
-                            <h5 class="mb-0">Prof. O.T. Ogundipe</h5>
+                            <h5 class="mb-0">Prof. Oluwatoyin Temitayo Ogundipe</h5>
                             <span>Vice Chancellor (UNILAG)</span><br />
                             <a href="https://www.linkedin.com/in/oluwatoyin-ogundipe-1b388566" target="_blank">
                                 <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
@@ -411,7 +411,7 @@
                     <div class="col">
                         <span>Interested in joining our team? Forward an email to
                             <a class="text-primary-2"
-                                href="mailto:airol.unilag.edu.ng">airol.unilag.edu.ng</a>
+                                href="mailto:airol@unilag.edu.ng">airol@unilag.edu.ng</a>
                         </span>
                     </div>
                 </div>
