@@ -103,7 +103,7 @@
               @foreach ($past as $event)
               <div class="pr-lg-4">
                 <div class="card card-article-wide flex-md-row no-gutters">
-                <a href="{{route('event_info' , ['id' => $event->id , 'slug' => $peventost->slug ]) }}" class="col-md-4">
+                <a href="{{route('event_info' , ['id' => $event->id , 'slug' => $event->slug ]) }}" class="col-md-4">
                     <img
                     src="{{ asset('post_images/'.$event->image) }}"
                     alt="{!! $event->title !!}"
@@ -115,7 +115,7 @@
             
                     <span data-toggle="tooltip" data-placement="top" title="{{date('M d, Y',strtotime($event->event_date))}}" class="badge text-muted float-right">{{$event->event_date}}</span>
                     </div>
-                    <a href="{{route('event_info' , ['id' => $event->id , 'slug' => $peventost->slug ]) }}" class="flex-grow-1">
+                    <a href="{{route('event_info' , ['id' => $event->id , 'slug' => $event->slug ]) }}" class="flex-grow-1">
                     <h3>{{$event->title}}</h3>
                     <p class="text-dark">
                       {{  \Illuminate\Support\Str::limit( strip_tags($event->description), $limit = 100, $end = '...') }}
