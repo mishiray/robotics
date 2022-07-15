@@ -189,19 +189,32 @@
                             </a>
                         </div>
                     </div>
-                  <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-                      <img src="{{ $web_source }}/images/team/ajayi.jpeg" alt="O. Ajayi"
-                          class="avatar avatar-xlg mr-3" />
-                      <div>
-                          <h5 class="mb-0">Dr Olasupo Ajayi</h5>
-                          <span>Member</span><br />
-                          <a href="https://www.linkedin.com/in/olasupo-ajayi-23096338/" target="_blank">
-                              <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
-                                  alt="decoration" data-inject-svg />
-                              @A. Olasupo
-                          </a>
-                      </div>
-                  </div>
+                    <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                        <img src="{{ $web_source }}/images/team/ajayi.jpeg" alt="O. Ajayi"
+                            class="avatar avatar-xlg mr-3" />
+                        <div>
+                            <h5 class="mb-0">Dr Olasupo Ajayi</h5>
+                            <span>Member</span><br />
+                            <a href="https://www.linkedin.com/in/olasupo-ajayi-23096338/" target="_blank">
+                                <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                    alt="decoration" data-inject-svg />
+                                @A. Olasupo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                        <img src="{{ $web_source }}/images/team/adebisi.jpeg" alt="Adebisi Abayomi"
+                            class="avatar avatar-xlg mr-3" />
+                        <div>
+                            <h5 class="mb-0">Prof. Adebisi Abayomi</h5>
+                            <span>Member</span><br />
+                            <a href="https://www.linkedin.com/in/adebisi-sunday-abayomi-98419361/?originalSubdomain=ng" target="_blank">
+                                <img class="icon" src="{{ $web_source }}/assets/img/icons/theme/social/linkedin.svg"
+                                    alt="decoration" data-inject-svg />
+                                @A. Adebisi
+                            </a>
+                        </div>
+                    </div>
                   <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
                       <img src="{{ $web_source }}/images/team/akinyemi.jpeg" alt="Ipinnimo"
                           class="avatar avatar-xlg mr-3" />
