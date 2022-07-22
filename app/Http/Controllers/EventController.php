@@ -118,6 +118,15 @@ class EventController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $event = Event::findorfail($id);
+        try{
+            unlink(public_path('/post_images').'/'.$event->image);
+        }
+        catch(Exception $e){
+           // toastr()->error('Couldn`t delete old image!');
+        }
+        $event->delete();
+        toastr()->success('Event deleted successfully!');
+        return redirect()->back();
     }
 }
