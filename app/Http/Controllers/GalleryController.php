@@ -14,7 +14,7 @@ class GalleryController extends Controller
      */
     public function index()
     {
-        $posts = Gallery::paginate(50);
+        $posts = Gallery::orderBy('id','desc')->paginate(50);
         return view('admin.gallery.index',compact('posts'));
     }
 
