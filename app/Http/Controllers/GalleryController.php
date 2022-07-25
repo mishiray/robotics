@@ -95,6 +95,15 @@ class GalleryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $gallery = Gallery::findorfail($id);
+        try{
+            unlink(public_path('/post_images').'/'.$gallery->image);
+        }
+        catch(Exception $e){
+           // toastr()->error('Couldn`t delete old image!');
+        }
+        $gallery->delete();
+        toastr()->success('Image deleted successfully!');
+        return redirect()->back();
     }
 }

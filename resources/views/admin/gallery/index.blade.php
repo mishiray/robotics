@@ -46,7 +46,7 @@
                                     <td>{{date('D , d M Y',strtotime($post->created_at)) }}</td>
                                     <div class="fr">
                                         <td class="center">
-                                            <form action="{{ route('blog.posts.destroy' , $post)}}" method="post">@csrf @method('delete')
+                                            <form action="{{ route('gallery.posts.destroy' , $post)}}" method="post">@csrf @method('delete')
                                                 <button type="submit" class="btn btn-primary btn-sm"><i class="ti-trash"></i></button>
                                             </form>
                                         </td>

@@ -6,10 +6,10 @@
                 <div class="float-right page-breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">{{env('APP_NAME')}}</a></li>
-                        <li class="breadcrumb-item active">Edit Blog Post</li>
+                        <li class="breadcrumb-item active">Edit Gallery Post</li>
                     </ol>
                 </div>
-                <h5 class="page-title">Edit Blog Post</h5>
+                <h5 class="page-title">Edit Gallery Post</h5>
             </div>
         </div>
         <!-- end row -->
@@ -20,7 +20,7 @@
                         <div class="card-body">
                             <h4 class="mt-0 header-title">Edit Blog Post</h4>
 
-                            <form class="" enctype="multipart/form-data" method="POST" action="{{ route('blog.posts.update' , $post) }}">{{csrf_field()}} @method('put')
+                            <form class="" enctype="multipart/form-data" method="POST" action="{{ route('gallery.posts.update' , $post) }}">{{csrf_field()}} @method('put')
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
